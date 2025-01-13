@@ -1,0 +1,111 @@
+/* This forces the page to be mobile size only */
+body {
+	max-width: 31.25rem;
+	margin: 0 auto;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+header,
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* Used this website to find the right property/value: https://www.shecodes.io/athena/17496-how-to-remove-the-underline-of-a-link-in-css#:~:text=To%20remove%20the%20underline%20of%20a%20link%2C%20you%20can%20use,and%20set%20it%20to%20none%20.&text=This%20will%20remove%20the%20underline%20of%20all%20links%20in%20your%20HTML%20document. */
+li a {
+    text-decoration: none;
+}
+
+a.link {
+    color: green;
+}
+
+a.link:visited {
+    color:green;
+}
+
+a.link:hover {
+    color:rgb(1, 44, 3);
+}
+
+a.link:active {
+    background-color: green;
+    color:rgb(1, 44, 3);
+}
+
+a.link:focus {
+    color: rgb(1, 44, 3);
+    border: 1px solid green;
+}
+
+article.service {
+    background-color:palegreen;
+    
+}
+
+article.service p,
+article.service h3 {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Used this website to find the right element: https://www.geeksforgeeks.org/how-to-add-horizontal-line-in-html/ */
+hr {
+    border: 1px solid black;
+    width: 90%;
+}
+
+a.button {
+    display: block;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+    margin:auto;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: darkgreen;
+    color: lightgray;
+}
+
+a.button:visited {
+    background-color: darkgreen;
+    color: white;
+}
+
+a.button:active {
+    background-color:darkolivegreen;
+    color: lightgray;
+}
+
+a.button:focus {
+    background-color: darkgreen;
+    color: lightgray;
+    border: 1px solid green;
+}
+
+article.customer {
+    text-align: center;
+}
+
+/* Used this website for help: https://www.shecodes.io/athena/40835-how-to-round-an-image-in-html#:~:text=To%20make%20an%20image%20round,give%20it%20a%20circular%20shape.&text=This%20assumes%20that%20the%20img,image%20you%20want%20to%20round. */
+article.customer figure img {
+    border-radius: 50%;
+}
+
+cite {
+    font-style: italic;
+}
